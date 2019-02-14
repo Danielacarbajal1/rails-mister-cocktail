@@ -1,0 +1,26 @@
+/* Your banner CSS file */
+.banner {
+  background-image:
+    /* Transparent gradient above */
+    linear-gradient(-225deg, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 70%),
+    /* Then image below */
+    url('https://images.unsplash.com/photo-1542600176-9d2c4bb4bc1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80');
+    height: 600px; /* 1vh => 1% of viewport height */
+  background-size: cover;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-content {
+  justify-content: left;
+  align-items: left;
+
+}
+
+.banner-content h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
