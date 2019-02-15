@@ -2,15 +2,19 @@
 .banner {
   background-image:
     /* Transparent gradient above */
-    linear-gradient(-225deg, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 70%),
+    linear-gradient(-225deg, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 70%),
     /* Then image below */
-    url('https://images.unsplash.com/photo-1542600176-9d2c4bb4bc1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80');
-    height: 600px; /* 1vh => 1% of viewport height */
+    url('https://images.unsplash.com/photo-1486428263684-28ec9e4f2584?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80');
+    height: 625px; /* 1vh => 1% of viewport height */
   background-size: cover;
   display:flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
+    background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner-content {
@@ -19,7 +23,7 @@
 
 }
 
-.banner-content h1 {
+h1 #banner-typed-text {
   color: white;
   font-size: 70px;
   font-weight: bold;

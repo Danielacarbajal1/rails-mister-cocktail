@@ -33,7 +33,7 @@
         color: grey;
       }
       > a:visited {
-        color: #C57ED3;
+        color: #000000;
         text-decoration: none;
       }
 
@@ -78,26 +78,13 @@
 /* Solid class attached on scroll past first section */
 
 .navbar.solid {
-  background-color: #490D40;
+  background-color: white;
   transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px grey;
+  box-shadow: 0 0 2px grey;
 
     .navbar-brand {
       color: #C57ED3;
       transition: color 1s ease 0s;
     }
-
-    .navbar-nav {
-
-       > li {
-
-          > a {
-            color: #C57ED3;
-            transition: color 1s ease 0s;
-          }
-
-       } //end li
-
-    } //end .navbar-nav
 
 }
